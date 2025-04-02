@@ -1,0 +1,16 @@
+body {
+    background-color: lightcyan;
+}
+
+/* Style des liens */
+a {
+    color: #3498db;
+    text-decoration: none;
+}
+
+/* Au survol du lien */
+a:hover {
+    color: #2c3e50;
+    text-decoration: underline;
+}
+

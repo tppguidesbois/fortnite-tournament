@@ -1,0 +1,82 @@
+body {
+    background-color: lightcyan;
+}
+
+/* Style des liens */
+a {
+    color: #3498db;
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+/* Au survol du lien */
+a:hover {
+    color: #2c3e50;
+    text-decoration: underline;
+}
+
+.li-haut-gauche {
+    display: flex; /* Affiche les <li> en ligne */
+    justify-content: flex-start; /* Aligne à gauche */
+    position: absolute;
+    top: 0;
+    left: 0;
+    list-style: none;
+    padding: 10px;
+    margin: 0;
+}
+
+.li-haut-gauche li {
+    margin-right: 20px; /* Espacement entre les éléments */
+}
+
+.li-haut-droite {
+    display: flex; /* Affiche les <li> en ligne */
+    justify-content: flex-end; /* Aligne à droite */
+    position: absolute;
+    top: 0;
+    right: 0;
+    list-style: none;
+    padding: 10px;
+    margin: 0;
+}
+
+.li-haut-droite li {
+    margin-right: 20px; /* Espacement entre les éléments */
+}
+
+/* Style des éléments de liste */
+nav ul li {
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    background: linear-gradient(to right, #3498db, #2c3e50);
+    color: white;
+    padding: 10px 15px;
+    border-radius: 8px;
+    margin: 5px;
+    transition: transform 0.2s, background 0.3s;
+    list-style: none; /* Enlève les puces */
+}
+
+/* Effet au survol */
+nav ul li:hover {
+    transform: scale(1.05);
+    background: linear-gradient(to right, #2c3e50, #3498db);
+}
+
+/* Style des liens dans les li */
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+    display: block;
+    padding: 10px;
+}
+
+/* Effet au survol du lien */
+nav ul li a:hover {
+    text-decoration: underline;
+}
