@@ -114,3 +114,50 @@ nav ul li a {
 nav ul li a:hover {
     text-decoration: underline;
 }
+
+section {
+    display: block;
+    width: 100%;
+    padding: 50px 0;
+    margin: 0 auto;
+}
+
+.image-section {
+    display: flex;
+    justify-content: center; /* Centre horizontalement */
+    align-items: center;     /* Centre verticalement */
+}
+
+/* Style général pour la balise p */
+.team-ranking {
+    font-family: 'Arial', sans-serif;  /* Police lisible */
+    font-size: 12px;                   /* Taille de police lisible */
+    line-height: 1.6;                  /* Espacement entre les lignes */
+    color: #333;                       /* Couleur du texte */
+    background-color: #f4f4f4;         /* Fond clair */
+    padding: 20px;                     /* Espacement intérieur */
+    border-radius: 8px;                /* Coins arrondis */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);  /* Ombre légère */
+    width: 80%;                        /* Largeur du texte */
+    margin: 30px auto;                 /* Centrage du texte sur la page */
+    text-align: left;                  /* Alignement à gauche */
+    word-wrap: break-word;             /* Permet aux mots de se couper */
+}
+
+/* Ajout d'une bordure pour séparer les lignes */
+.team-ranking br {
+    margin-bottom: 10px; /* Espacement entre les lignes */
+}
+
+/* Chaque ligne a une couleur différente pour améliorer la lisibilité */
+.team-ranking br:nth-child(odd) {
+    background-color: #dfe6e9;  /* Fond gris clair pour les lignes impaires */
+    padding: 5px;
+    border-radius: 4px;
+}
+
+/* Ajouter un effet de survol sur les lignes */
+.team-ranking span:hover {
+    color: #2ecc71;             /* Couleur au survol */
+    cursor: pointer;           /* Curseur de type pointer */
+}

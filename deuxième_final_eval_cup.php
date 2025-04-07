@@ -34,8 +34,8 @@ if (!isset($_SESSION['pseudo'])) {
             <?php endif; ?>
         </nav>
     </section>
-    <section>
-        
+    <section class="image-section">
+        <img src="final eval cup week 2.jpg" alt="final eval cup week 2">
     </section>
 </body>
 </html>
