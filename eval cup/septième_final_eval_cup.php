@@ -17,19 +17,19 @@ if (!isset($_SESSION['pseudo'])) {
     <link rel="stylesheet" href="style_septième_final_eval_cup.css">
 </head>
 <body>
-    <section>
+<section>
     <nav>
             <ul class="li-haut-gauche">
-                <li><a href="index.php">Accueil</a></li>
-                <li><a href="cup.php">Cup</a></li>
+                <li><a href="../index.php">Accueil</a></li>
+                <li><a href="../cup.php">Cup</a></li>
             </ul>
             <ul class="li-haut-droite">
                 <?php if (isset($_SESSION['pseudo'])): ?>
-                    <li><a href="profil.php"><?php echo htmlspecialchars($_SESSION['pseudo']); ?></a></li>
-                    <li><a href="logout.php">Déconnexion</a></li>
+                    <li><a href="../profil.php"><?php echo htmlspecialchars($_SESSION['pseudo']); ?></a></li>
+                    <li><a href="../logout.php">Déconnexion</a></li>
                 <?php else: ?>
-                    <li><a href="inscription.php">Inscription</a></li>
-                    <li><a href="connexion.php">Connexion</a></li>
+                    <li><a href="../inscription.php">Inscription</a></li>
+                    <li><a href="../connexion.php">Connexion</a></li>
                 </ul>
             <?php endif; ?>
         </nav>
@@ -37,6 +37,7 @@ if (!isset($_SESSION['pseudo'])) {
     <section class="image-section">
         <img src="final eval cup week 7.jpg" alt="final eval cup week 7">
         <p2 class="team-ranking">
+        open qual :<br>
         1 : Lsodya Putrix52 + wed1prime228qq + Kulb - 304 points<br>
 2 : Czb + Eclipse + Nxthan - 298 points<br>
 3 : Doom + ghоst fv + Ice - 277 points<br>

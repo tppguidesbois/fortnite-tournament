@@ -3,7 +3,7 @@ session_start();
 // Vérifie si l'utilisateur est connecté
 if (!isset($_SESSION['pseudo'])) {
     // Redirige vers la page de connexion
-    header("Location: non_connecter_cup.php");
+    header("../Location: non_connecter_cup.php");
     exit(); // Arrête l'exécution du script après la redirection
 }
 ?>
@@ -20,23 +20,24 @@ if (!isset($_SESSION['pseudo'])) {
     <section>
     <nav>
             <ul class="li-haut-gauche">
-                <li><a href="index.php">Accueil</a></li>
-                <li><a href="cup.php">Cup</a></li>
+                <li><a href="../index.php">Accueil</a></li>
+                <li><a href="../cup.php">Cup</a></li>
             </ul>
             <ul class="li-haut-droite">
                 <?php if (isset($_SESSION['pseudo'])): ?>
-                    <li><a href="profil.php"><?php echo htmlspecialchars($_SESSION['pseudo']); ?></a></li>
-                    <li><a href="logout.php">Déconnexion</a></li>
+                    <li><a href="../profil.php"><?php echo htmlspecialchars($_SESSION['pseudo']); ?></a></li>
+                    <li><a href="../logout.php">Déconnexion</a></li>
                 <?php else: ?>
-                    <li><a href="inscription.php">Inscription</a></li>
-                    <li><a href="connexion.php">Connexion</a></li>
+                    <li><a href="../inscription.php">Inscription</a></li>
+                    <li><a href="../connexion.php">Connexion</a></li>
                 </ul>
             <?php endif; ?>
         </nav>
     </section>
     <section class="image-section">
-        <img src="final eval cup week 3.jpg" alt="final eval cup week 3">
+        <img src="final div cup week 3.jpg" alt="final div cup week 3">
         <p2 class="team-ranking">
+        open qual :<br>
         1 : Pixx + Darm + demus - 841 points<br>
 2 : Cringe + Kayd + Volko - 769 points<br>
 3 : Vanyak3kk + Pixie + MariusCOW - 760 points<br>

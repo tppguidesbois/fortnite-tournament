@@ -25,11 +25,11 @@
         </nav>
     </section>
     <section>
-        <p><a href="première_final_fncs_division_cup.php">08/03/2025</a></p>
-        <p><a href="deuxième_final_fncs_division_cup.php">15/03/2025</a></p>
-        <p><a href="troisième_final_fncs_division_cup.php">22/03/2025</a></p>
-        <p><a href="quatrième_final_fncs_division_cup.php">29/03/2025</a></p>
-        <p><a href="cinquième_final_fncs_division_cup.php">05/04/2025</a></p>
+        <p><a href="div cup/première_final_fncs_division_cup.php">08/03/2025</a></p>
+        <p><a href="div cup/deuxième_final_fncs_division_cup.php">15/03/2025</a></p>
+        <p><a href="div cup/troisième_final_fncs_division_cup.php">22/03/2025</a></p>
+        <p><a href="div cup/quatrième_final_fncs_division_cup.php">29/03/2025</a></p>
+        <p><a href="div cup/cinquième_final_fncs_division_cup.php">05/04/2025</a></p>
     </section>
 </body>
 </html>

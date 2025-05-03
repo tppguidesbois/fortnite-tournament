@@ -25,7 +25,7 @@
         </nav>
     </section>
     <section>
-        <p>26/04/2025 et 27/04/2025</p>
+        <p><a href="grand_final_fncs.php">26/04/2025 et 27/04/2025</a></p>
     </section>
 </body>
 </html>

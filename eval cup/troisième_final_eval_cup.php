@@ -37,6 +37,7 @@ if (!isset($_SESSION['pseudo'])) {
     <section class="image-section">
         <img src="final eval cup week 3.jpg" alt="final eval cup week 3">
         <p2 class="team-ranking">
+        open qual :<br>
         1 : IDrop + Sky + Scroll - 326 points<br>
 2 : P1ng + Wox + Malibuca - 319 points<br>
 3 : PabloWingu + Th0masHD + panzer - 289 points<br>

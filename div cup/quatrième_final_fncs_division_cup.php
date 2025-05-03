@@ -3,7 +3,7 @@ session_start();
 // Vérifie si l'utilisateur est connecté
 if (!isset($_SESSION['pseudo'])) {
     // Redirige vers la page de connexion
-    header("Location: non_connecter_cup.php");
+    header("../Location: non_connecter_cup.php");
     exit(); // Arrête l'exécution du script après la redirection
 }
 ?>
@@ -17,26 +17,27 @@ if (!isset($_SESSION['pseudo'])) {
     <link rel="stylesheet" href="style_quatrième_final_fncs_division_cup.css">
 </head>
 <body>
-    <section>
+<section>
     <nav>
             <ul class="li-haut-gauche">
-                <li><a href="index.php">Accueil</a></li>
-                <li><a href="cup.php">Cup</a></li>
+                <li><a href="../index.php">Accueil</a></li>
+                <li><a href="../cup.php">Cup</a></li>
             </ul>
             <ul class="li-haut-droite">
                 <?php if (isset($_SESSION['pseudo'])): ?>
-                    <li><a href="profil.php"><?php echo htmlspecialchars($_SESSION['pseudo']); ?></a></li>
-                    <li><a href="logout.php">Déconnexion</a></li>
+                    <li><a href="../profil.php"><?php echo htmlspecialchars($_SESSION['pseudo']); ?></a></li>
+                    <li><a href="../logout.php">Déconnexion</a></li>
                 <?php else: ?>
-                    <li><a href="inscription.php">Inscription</a></li>
-                    <li><a href="connexion.php">Connexion</a></li>
+                    <li><a href="../inscription.php">Inscription</a></li>
+                    <li><a href="../connexion.php">Connexion</a></li>
                 </ul>
             <?php endif; ?>
         </nav>
     </section>
     <section class="image-section">
-        <img src="final eval cup week 4.jpg" alt="final eval cup week 4">
+        <img src="final div cup week 4.jpg" alt="final div cup week 4">
         <p2 class="team-ranking">
+        open qual :<br>
         1 : Fastroki + Juu + JannisZ - 846 points<br>
 2 : Vanyak3kk + Pixie + MariusCOW - 822 points<br>
 3 : tjinо + PabloWingu + Fredoxie - 813 points<br>

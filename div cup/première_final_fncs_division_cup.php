@@ -17,27 +17,28 @@ if (!isset($_SESSION['pseudo'])) {
     <link rel="stylesheet" href="style_première_final_fncs_division_cup.css">
 </head>
 <body>
-    <section class="nav-section">
-        <nav>
+<section>
+    <nav>
             <ul class="li-haut-gauche">
-                <li><a href="index.php">Accueil</a></li>
-                <li><a href="cup.php">Cup</a></li>
+                <li><a href="../index.php">Accueil</a></li>
+                <li><a href="../cup.php">Cup</a></li>
             </ul>
             <ul class="li-haut-droite">
                 <?php if (isset($_SESSION['pseudo'])): ?>
-                    <li><a href="profil.php"><?php echo htmlspecialchars($_SESSION['pseudo']); ?></a></li>
-                    <li><a href="logout.php">Déconnexion</a></li>
+                    <li><a href="../profil.php"><?php echo htmlspecialchars($_SESSION['pseudo']); ?></a></li>
+                    <li><a href="../logout.php">Déconnexion</a></li>
                 <?php else: ?>
-                    <li><a href="inscription.php">Inscription</a></li>
-                    <li><a href="connexion.php">Connexion</a></li>
-                <?php endif; ?>
-            </ul>
+                    <li><a href="../inscription.php">Inscription</a></li>
+                    <li><a href="../connexion.php">Connexion</a></li>
+                </ul>
+            <?php endif; ?>
         </nav>
     </section>
 
     <section class="image-section">
         <img src="final div cup week 1.jpg" alt="final div cup week 1">
         <p2 class="team-ranking">
+        open qual :<br>
         1 : Vanyak3kk + Pixie + MariusCOW - 869 points<br>
     2 : Chap + Shxrk + kiduoo - 860 points<br>
     3 : Pixx + Darm + demus - 762 points<br>
