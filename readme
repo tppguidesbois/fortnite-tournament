@@ -1,0 +1,3 @@
+pour que la connection fonctionne, il faut faire un serveur local et une bdd
+j'ai utilisé wamp pour le serveur local 
+puis phpmyadmin pour la base de donnée, dans phpmyadmin, j'ai utilisé une base nommé : "users", pour accéder a phpmyadmin, le nom d'utilisateur est : "root" et le mdp : ""(il n'y a pas de mot de passe)
